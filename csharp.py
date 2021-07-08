@@ -21,8 +21,8 @@ def apagando_exe(objeto):
             os.system("del {}".format(arquivo))
 
 def codando(objeto):
-    #n1 = str(input("Nome do arquivo: ")).strip()
-    n1 = "parametros" #NOME DO ARQUIVO.
+    n1 = str(input("Nome do arquivo: ")).strip() #Aqui é passado o nome do arquivo
+    #n1 = "programinha" #Caso você enjoe de usar o input toda a hora, recomendo usar essa linha ao inves do input
     for c in objeto[1]:
         if c[0] == n1:
             arquivo = f"{c[0]}.cs"
